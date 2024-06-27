@@ -3,6 +3,7 @@ import axios from 'axios';
 
 const Lists = () => {
   const [documents, setDocuments] = useState([]);
+  const [a, setA] = useState([]);
 
   useEffect(() => {
     const fetchDocuments = async () => {
